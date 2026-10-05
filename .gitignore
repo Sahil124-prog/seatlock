@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment variables (never push secrets)
+.env
+*.env
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Docker volumes (if any local bind mounts)
+mongo-data/
+redis-data/
